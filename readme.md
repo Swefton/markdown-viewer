@@ -45,3 +45,5 @@ npx @rose-pine/build@latest
     - Description should read "Soho vibes for App" where "App" is the display name
     - Topics should include [existing categories](https://rosepinetheme.com/themes)
     - Generate and upload social image via [Rosé Pine Images](https://rose-pine-images.vercel.app)
+
+[Extension it's made for ](https://chromewebstore.google.com/detail/markdown-viewer/ckkdlimhmcjmikdlpkmbgfkaikojcbjk)
