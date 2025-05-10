@@ -1,18 +1,40 @@
+:root {
+  --base: #191724;
+  --surface: #1f1d2e;
+  --overlay: #26233a;
+  --muted: #6e6a86;
+  --subtle: #908caa;
+  --text: #e0def4;
+  --love: #eb6f92;
+  --gold: #f6c177;
+  --rose: #ebbcba;
+  --pine: #31748f;
+  --foam: #9ccfd8;
+  --iris: #c4a7e7;
+  --highlight-low: #21202e;
+  --highlight-med: #403d52;
+  --highlight-high: #524f67;
+}
 
 body {
-  font-family: 'Monospace', monospace;
+  font-family: 'Tahoma', Tahoma;
 }
 
 table th { border-bottom: 2px solid; }
 table td { border-right: 1px solid; padding: 5px 10px; }
 table tr td:last-of-type { border: none; }
+hr {
+  background: linear-gradient(to right, var(--pine), var(--love), var(--rose), var(--gold), var(--rose),var(--love), var(--pine));
+  height: 5px;
+  border: 0;
+}
 
 @media (prefers-color-scheme: dark) {
-  body { color: #f8f8f2; }
-  a { color: #a6e22e; text-decoration: none; }
-  a:hover { color: #f92672; }
+  body { color: var(--text); background-color: var(--base);}
+  a { color: var(--love); text-decoration: none; }
+  a:hover { color: var(--foam); }
   mark { background: #e6db74; border-radius: 3px; padding: 0 3px; }
-  code:not([class^=language-]):not([class=mermaid]) { background: #cdcdcd; color: #000; border-radius: 3px; padding: 3px; }
+  code:not([class^=language-]):not([class=mermaid]) { background: var(--highlight-low); color: var(--subtle); border-radius: 3px; padding: 3px; }
   kbd { background: #fd971f; color: #000; border-radius: 3px; padding: 0 3px; }
   table th { color: #f8f8f2; }
   table td { color: #f8f8f2; }
