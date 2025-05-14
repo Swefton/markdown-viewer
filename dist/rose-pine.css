@@ -1,0 +1,143 @@
+:root {
+  --base: #191724;
+  --surface: #1f1d2e;
+  --overlay: #26233a;
+  --muted: #6e6a86;
+  --subtle: #908caa;
+  --text: #e0def4;
+  --love: #eb6f92;
+  --gold: #f6c177;
+  --rose: #ebbcba;
+  --pine: #31748f;
+  --foam: #9ccfd8;
+  --iris: #c4a7e7;
+  --highlight-low: #21202e;
+  --highlight-med: #403d52;
+  --highlight-high: #524f67;
+}
+
+body {
+  font-family: 'Tahoma', Tahoma;
+}
+
+table th {
+  border-bottom: 2px solid var(--highlight-high);
+  color: var(--text);
+}
+
+table td {
+  border-right: 1px solid var(--highlight-med);
+  padding: 5px 10px;
+  color: var(--text);
+}
+
+table tr td:last-of-type {
+  border: none;
+}
+
+table tr:nth-child(odd) td {
+  background: var(--overlay);
+}
+
+hr {
+  background: linear-gradient(
+    to right,
+    var(--pine),
+    var(--love),
+    var(--rose),
+    var(--gold),
+    var(--rose),
+    var(--love),
+    var(--pine)
+  );
+  height: 5px;
+  border: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: var(--text);
+    background-color: var(--base);
+  }
+
+  a {
+    color: var(--love);
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: var(--foam);
+  }
+
+  mark {
+    background: var(--gold);
+    border-radius: 3px;
+    padding: 0 3px;
+    color: var(--base);
+  }
+
+  code:not([class^=language-]):not([class=mermaid]) {
+    background: var(--highlight-low);
+    color: var(--subtle);
+    border-radius: 3px;
+    padding: 3px;
+  }
+
+  kbd {
+    background: var(--gold);
+    color: var(--base);
+    border-radius: 3px;
+    padding: 0 3px;
+  }
+
+  blockquote {
+    background: var(--highlight-low);
+    border-left: 5px solid var(--highlight-high);
+    padding: 1px 10px;
+    margin: 16px 0;
+  }
+
+  pre[class^="language-"] {
+    background: var(--highlight-low);
+    padding: 1em;
+    margin: 16px 0;
+    border-left: 5px solid var(--highlight-high);
+    overflow-x: auto;
+    border-radius: 4px;
+  }
+
+  /* Prism-like syntax highlighting */
+  [class^=language-] .function,
+  [class^=language-] .function-variable {
+    color: var(--foam);
+  }
+
+  [class^=language-] .property,
+  [class^=language-] .literal-property {
+    color: var(--gold);
+  }
+
+  [class^=language-] .parameter {
+    color: var(--rose);
+  }
+
+  [class^=language-] .operator {
+    color: var(--love);
+  }
+
+  [class^=language-] .punctuation {
+    color: var(--text);
+  }
+
+  [class^=language-] .string {
+    color: var(--gold);
+  }
+
+  [class^=language-] .boolean {
+    color: var(--iris);
+  }
+
+  [class^=language-] .comment {
+    color: var(--muted);
+  }
+}

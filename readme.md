@@ -13,9 +13,18 @@
 
 ## Usage
 
-1. Open App
-2. Under settings, import `rose-pine.theme`
-3. Select `Rosé Pine` from the themes dropdown
+1. Download Markdown Viwer for [Chrome](https://chromewebstore.google.com/detail/markdown-viewer/ckkdlimhmcjmikdlpkmbgfkaikojcbjk).
+    > Download links for alternative browsers can be found on their [GitHub](https://github.com/simov/markdown-viewer)
+2. Open `advanced options` under the extension.
+3. Under `settings` add a custom theme.
+4. Select your desired `.css` file.
+    > Appropriate variant can be found under `dist/<theme>.css`
+
+### For Rosé Pine & Rosé Pine Moon
+1. Change the color scheme to dark.
+
+### For Rosé Pine Dawn
+1. Change the color scheme to light.
 
 ## Gallery
 
@@ -23,7 +32,7 @@
 
 ## Thanks to
 
-- [You, it's you!](https://github.com/<username>)
+- [Swefton](https://github.com/swefton)
 
 ## Contributing
 
