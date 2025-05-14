@@ -90,6 +90,13 @@ hr {
     padding: 0 3px;
   }
 
+  blockquote {
+    background: var(--highlight-low);
+    border-left: 5px solid var(--highlight-high);
+    padding: 1px 10px;
+    margin: 16px 0;
+  }
+
   pre[class^="language-"] {
     background: var(--highlight-low);
     padding: 1em;
@@ -97,13 +104,6 @@ hr {
     border-left: 5px solid var(--highlight-high);
     overflow-x: auto;
     border-radius: 4px;
-  }
-
-  blockquote {
-    background: var(--highlight-low);
-    border-left: 5px solid var(--highlight-high);
-    padding: 1px 10px;
-    margin: 16px 0;
   }
 
   /* Prism-like syntax highlighting */
