@@ -13,31 +13,27 @@
 
 ## Usage
 
-1. Download Markdown Viewer for [Chrome](https://chromewebstore.google.com/detail/markdown-viewer/ckkdlimhmcjmikdlpkmbgfkaikojcbjk).
-    > Download links for alternative browsers can be found on their [GitHub](https://github.com/simov/markdown-viewer)
-2. Open `advanced options` under the extension.
-3. Under `settings` add a custom theme.
-4. Select your desired `.css` file.
-    > Appropriate variant can be found under `dist/<theme>.css`
-
-### For Rosé Pine & Rosé Pine Moon
-1. Change the color scheme to dark.
-
-### For Rosé Pine Dawn
-1. Change the color scheme to light.
+1. Download Markdown Viewer for [Chrome](https://chromewebstore.google.com/detail/markdown-viewer/ckkdlimhmcjmikdlpkmbgfkaikojcbjk) or [other browsers](https://github.com/simov/markdown-viewer)
+2. Open `advanced options` under the extension
+3. Under `settings` add a custom theme
+4. Select your desired `dist/<variant>.css` file
+5. Set the color scheme to light if using Rosé Pine Dawn, otherwise set to dark
 
 ## Gallery
 
-### Rosé Pine
-![Rosé Pine with Markdown Viewer](assets/rose-pine.png)
-### Rosé Pine Moon
-![Rosé Pine Moon with Markdown Viewer](assets/rose-pine-moon.png)
-### Rosé Pine Dawn
-![Rosé Pine Dawn with Markdown Viewer](assets/rose-pine-dawn.png)
+> This repo includes a [sample.md](./sample.md) to preview the theme.
+
+**Rosé Pine**
+
+![Rosé Pine with Markdown Viewer](https://github.com/user-attachments/assets/a1ec4e0b-4210-482c-b1dd-f35dd6b1dd2c)
+
+**Rosé Pine Moon**
+![Rosé Pine Moon with Markdown Viewer](https://github.com/user-attachments/assets/e7da5830-2ca0-48ef-902c-f031653734f6)
+
+**Rosé Pine Dawn**
+![Rosé Pine Dawn with Markdown Viewer](https://github.com/user-attachments/assets/88ea5050-bd36-4476-a1ad-3598a5e0f800)
 
 ## Contributing
-
-> Prefer using [@rose-pine/build](https://github.com/rose-pine/build) when possible
 
 Modify `template.css` using Rosé Pine variables, then build variants:
 
