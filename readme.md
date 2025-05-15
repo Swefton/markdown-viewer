@@ -28,9 +28,11 @@
 ![Rosé Pine with Markdown Viewer](https://github.com/user-attachments/assets/a1ec4e0b-4210-482c-b1dd-f35dd6b1dd2c)
 
 **Rosé Pine Moon**
+
 ![Rosé Pine Moon with Markdown Viewer](https://github.com/user-attachments/assets/e7da5830-2ca0-48ef-902c-f031653734f6)
 
 **Rosé Pine Dawn**
+
 ![Rosé Pine Dawn with Markdown Viewer](https://github.com/user-attachments/assets/88ea5050-bd36-4476-a1ad-3598a5e0f800)
 
 ## Contributing
