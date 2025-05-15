@@ -35,6 +35,10 @@
 
 ![Rosé Pine Dawn with Markdown Viewer](https://github.com/user-attachments/assets/88ea5050-bd36-4476-a1ad-3598a5e0f800)
 
+## Thanks to
+
+- [Swefton](https://github.com/Swefton)
+
 ## Contributing
 
 Modify `template.css` using Rosé Pine variables, then build variants:
