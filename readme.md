@@ -13,7 +13,7 @@
 
 ## Usage
 
-1. Download Markdown Viwer for [Chrome](https://chromewebstore.google.com/detail/markdown-viewer/ckkdlimhmcjmikdlpkmbgfkaikojcbjk).
+1. Download Markdown Viewer for [Chrome](https://chromewebstore.google.com/detail/markdown-viewer/ckkdlimhmcjmikdlpkmbgfkaikojcbjk).
     > Download links for alternative browsers can be found on their [GitHub](https://github.com/simov/markdown-viewer)
 2. Open `advanced options` under the extension.
 3. Under `settings` add a custom theme.
